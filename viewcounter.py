@@ -8,7 +8,7 @@ import re
 import os
 
 sum = 0
-api = Api(api_key='AIzaSyBP8vpiJAuc8GduKZoYhqcIJHqtQlcQUKg')
+api = Api(api_key='')
 
 def countViews():
     global sum
