@@ -8,7 +8,9 @@ import re
 import os
 
 sum = 0
-api = Api(api_key='')
+keyfile = open("key.txt", "r")
+key = keyfile.read()
+api = Api(api_key=key)
 
 def countViews():
     global sum
